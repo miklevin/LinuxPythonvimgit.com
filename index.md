@@ -1,3 +1,5 @@
 # Hello World! Linux, Python, vim, git website launched.
 
-## You won't see this change right away, but it's easier to push.
+This is where I will document everything about this developer platform /
+playback engine that will serve you for the rest of your life without constant
+vendor-induced resetting, retraining, and re-paying.
