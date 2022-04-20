@@ -1,7 +1,28 @@
 # Linux, Python, vim & git
 
-## Hello World! Linux, Python, vim, git website launched.
+# Beginning of Journal
 
-This is where I will document everything about this developer platform /
-playback engine that will serve you for the rest of your life without constant
-vendor-induced resetting, retraining, and re-paying.
+
+--------------------------------------------------------------------------------
+## Wed Apr 20, 2022
+
+Take some time to improve your process. You won't be sorry.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
