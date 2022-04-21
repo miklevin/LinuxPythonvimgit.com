@@ -1,5 +1,9 @@
 # Linux, Python, vim & git
 
+## The Unix Philosophy: Numerous Timeless Tools, Each Doing One Thing Well
+
+### My Philosophy: Using The Unix Philosophy To Never Go Obsolete
+
 # Beginning of Journal
 
 --------------------------------------------------------------------------------
@@ -270,10 +274,6 @@ you when you load it. Once you edit your .vimrc file you have to quit and load
 vim to have the new .vimrc active. That's when it will tell you if an error
 occurred. The most common thing is not closing your strings (single-quotes
 around the macro).
-
-Okay, and finally I'm about to do a macro that practices what I preach right
-now in order to finish ***and publish*** this article.
-
 
 --------------------------------------------------------------------------------
 ## Wed Apr 20, 2022
