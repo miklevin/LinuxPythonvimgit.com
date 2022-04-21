@@ -1,9 +1,5 @@
 # Linux, Python, vim & git
 
-## The Unix Philosophy: Numerous Timeless Tools, Each Doing One Thing Well
-
-### My Philosophy: Using The Unix Philosophy To Never Go Obsolete
-
 # Beginning of Journal
 
 --------------------------------------------------------------------------------
