@@ -1,4 +1,4 @@
-# Linux, Python, vim & git
+# Linux, Python, vim & git 
 
 # Beginning of Journal
 
