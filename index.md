@@ -1,6 +1,6 @@
 # Linux, Python, vim & git 
 
-# Beginning of Journal
+## Beginning of Journal
 
 --------------------------------------------------------------------------------
 ## Thu Apr 21, 2022
