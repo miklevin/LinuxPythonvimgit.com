@@ -1,3 +1,6 @@
+---
+description: Learn Linux, Python, vim & git To Obsolescence-Proof Your Future
+---
 # Linux, Python, vim & git 
 
 ## Beginning of Journal
