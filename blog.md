@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What's A Meta For  Blog"
+title: "Linux, Python, vim & git Blog"
 slug: blog
 ---
 
