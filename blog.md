@@ -4,7 +4,7 @@ title: "Linux, Python, vim & git Blog"
 slug: blog
 ---
 
-[Single Page Linux, Python, vim & git Blog](/journal/)
+## [Linux, Python, vim & git Blog as One Page](/journal/)
 
 
 
