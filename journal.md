@@ -7,8 +7,7 @@ description: Learn Linux, Python, vim & git To Obsolescence-Proof Your Future
 
 --------------------------------------------------------------------------------
 ## Thu Apr 21, 2022
-
-# Accelerate Your Life With vim Macros
+### Accelerate Your Life With vim Macros
 
 Look for the little accelerators. It's the little things in life that make all
 the difference, like being able to record and play back macros with ease. vim

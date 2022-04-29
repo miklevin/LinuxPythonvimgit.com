@@ -4,4 +4,4 @@ title: "Linux, Python, vim & git Blog"
 slug: blog
 ---
 
-- [Post 1](/blog/post-1/)
+- [Accelerate Your Life With vim Macros](/blog/accelerate-life-vim-macros/)
