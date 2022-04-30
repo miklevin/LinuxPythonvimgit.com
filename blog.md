@@ -1,7 +1,9 @@
 ---
 layout: post
+author: Mike Levin
 title: "Linux, Python, vim & git Blog"
 slug: blog
+permalink: /blog/
 ---
 
 ### [Linux, Python, vim & git Blog as One Page](/journal/)
