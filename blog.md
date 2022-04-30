@@ -6,7 +6,7 @@ slug: blog
 permalink: /blog/
 ---
 
-### [Linux, Python, vim & git Blog as One Page](/journal/)
+### [Mike Levin Home](/) [Linux, Python, vim & git Blog as One Page](/journal/)
 
 
 
