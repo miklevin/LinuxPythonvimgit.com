@@ -10,4 +10,4 @@ permalink: /blog/
 
 
 
-- [Accelerate Your Life With vim Macros](/blog/accelerate-your-life-with-vim-macros/)
+- 2022-04-20 [Accelerate Your Life With vim Macros](/blog/accelerate-your-life-with-vim-macros/)
