@@ -8,4 +8,4 @@ slug: blog
 
 
 
-- [Accelerate Your Life With vim Macros](/blog/accelerate-life-vim-macros/)
+- [Accelerate Your Life With vim Macros](/blog/accelerate-your-life-with-vim-macros/)
