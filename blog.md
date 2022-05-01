@@ -6,6 +6,8 @@ slug: blog
 permalink: /blog/
 ---
 
+[Linux, Python, vim & git Blog as 1 page]
+
 
 
 - [Accelerate Your Life With vim Macros](/blog/accelerate-your-life-with-vim-macros/)
