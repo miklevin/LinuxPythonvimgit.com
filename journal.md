@@ -42,9 +42,10 @@ along with varying degrees of skill by Commodore, it was the brain-child and
 
 Hello May! Come what may. This is month 1 of the 2 months I’ve got left at this
 comfortable little mountain cottage in the Poconos in the same neighborhood
-where I skied with my family growing up.  I was a Philadelphian all my life,
-then I was a I was a New Yorker for 15 years, and now I'm back in my old hood.
-Covid struck and I made like a shepherd and got the flock out of there.
+where I skied with my family growing up. I was a Philadelphian all my life,
+then I was a New Yorker for 15 years to be where the jobs were, and now I'm
+back in my old hood.  Covid struck and I made like a shepherd and got the flock
+out of there.
 
 Now ny lease is up. It's time for change. I’ve got an itch. It’s time to
 scratch. So let's launch this site properly, with my seminal article on a topic
