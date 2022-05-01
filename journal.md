@@ -43,27 +43,32 @@ along with varying degrees of skill by Commodore, it was the brain-child and
 Hello May! Come what may. This is month 1 of the 2 months I’ve got left at this
 comfortable little mountain cottage in the Poconos in the same neighborhood
 where I skied with my family growing up. I was a Philadelphian all my life,
-then I was a New Yorker for 15 years to be where the jobs were, and now I'm
-back in my old hood.  Covid struck and I made like a shepherd and got the flock
-out of there.
+then I was a New Yorker for 15 years. Covid struck and I made like a shepherd
+and got the flock out of there.
 
-Now ny lease is up. It's time for change. I’ve got an itch. It’s time to
-scratch. So let's launch this site properly, with my seminal article on a topic
-of passion.  I’ve got 2 new little acronyms for you that will change your life:
-LPvg and ELTgd.
+Now my lease is up and it's time for a change again. I honestly don't know
+whether I'm going to be in the mountains for another 2 years or back on Staten
+Island where my kid is homeschooled. But either way, I’ve got an itch that's
+been with me for the better part of my life, and it's time to scratch it.
+You're here for the scratching.
 
-That you’re reading this means that my success is assumed. For you see, I’m an
-SEO (search engine optimizer) and getting you here is what I do. Making
-connections invisible-handedly is what I do. So, hi. Nice to meet you. You’ll
-be seeing me again because whatever you searched on or whatever link you
-followed, you wil again because you did ones. So stop reading if you will, but
-I’ll see you soon. 
+So let's launch this site properly, with my seminal article on a topic of
+passion. I’ve got 2 new little acronyms for you that will change your life:
+LPvg and ELTgd. Of course LPvg stands for Linux, Python, vim & git as is the
+domain name of the site you're on. 
+
+ELTgd stands for something whose reality is confirmed by the fact you're here
+reading this. For you see, I’m an SEO (search engine optimizer) and getting you
+here is what I do. Making connections invisible-handedly is what I do. So, hi.
+Nice to meet you. You’ll be seeing me again because whatever you searched on or
+whatever link you followed, you wil again because you did ones. So stop reading
+if you will, but I’ll see you soon. 
 
 Every Little Thing Gets Done. Or, ELTgd. That’s my new mantra now, Instead of
-ELPGD which resonates Help God, which I’ve been toying with lately. I’m
-improving it to ELTgd which resonates Felt Good. Yup. When every little thing
-gets done, it feels good. Recently, I’ve started dispensing with a number of
-those little “makes all the difference” projects. 
+ELPGD which resonates ***Help God***, which I’ve been toying with lately. I’m
+improving it to ELTgd which resonates ***Felt Good***. Yup. When every little
+thing gets done, it feels good. Recently, I’ve started dispensing with a number
+of those little “makes all the difference” projects. 
 
 LPvg stand for Linux, Python, vim & git as anyone who follows me even a little
 bit probably know by now. The v and the g are lowercase because vim and git are
