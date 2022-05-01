@@ -7,37 +7,6 @@ description: Learn Linux, Python, vim & git To Obsolescence-Proof Your Future
 
 --------------------------------------------------------------------------------
 ## Sun May 01, 2022
-
-My heart belonged to a computer from long ago that might as well have been
-alien tech. It was my amiga. It was THE Amiga. Although marketed and shepherded
-along with varying degrees of skill by Commodore, it was the brain-child and 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---------------------------------------------------------------------------------
-## Sun May 01, 2022
 ### Let Me Introduce You To LPvg & ELTgd To Save The World
 
 Hello May! Come what may. This is month 1 of the 2 months I’ve got left at this
