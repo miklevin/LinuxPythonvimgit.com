@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 author: Mike Levin
 title: "Linux, Python, vim & git Blog"
 slug: blog
