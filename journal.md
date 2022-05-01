@@ -30,7 +30,7 @@ ELTgd stands for something whose reality is confirmed by the fact you're here
 reading this. For you see, I’m an SEO (search engine optimizer) and getting you
 here is what I do. Making connections invisible-handedly is what I do. So, hi.
 Nice to meet you. You’ll be seeing me again because whatever you searched on or
-whatever link you followed, you wil again because you did ones. So stop reading
+whatever link you followed, you will again because you did ones. So stop reading
 if you will, but I’ll see you soon. 
 
 Every Little Thing Gets Done. Or, ELTgd. That’s my new mantra now, Instead of
