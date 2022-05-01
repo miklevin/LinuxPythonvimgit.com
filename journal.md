@@ -7,12 +7,49 @@ description: Learn Linux, Python, vim & git To Obsolescence-Proof Your Future
 
 --------------------------------------------------------------------------------
 ## Sun May 01, 2022
+
+My heart belonged to a computer from long ago that might as well have been
+alien tech. It was my amiga. It was THE Amiga. Although marketed and shepherded
+along with varying degrees of skill by Commodore, it was the brain-child and 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+## Sun May 01, 2022
 ### Let Me Introduce You To LPvg & ELTgd To Save The World
 
 Hello May! Come what may. This is month 1 of the 2 months I’ve got left at this
-comfortable little mountain cottage in the Poconos where I skied with my family
-growing up. I’ve got an itch. It’s time to scratch. I’ve got 2 new little
-acronyms for you that will change your life: LPvg and ELTgd.
+comfortable little mountain cottage in the Poconos in the same neighborhood
+where I skied with my family growing up.  I was a Philadelphian all my life,
+then I was a I was a New Yorker for 15 years, and now I'm back in my old hood.
+Covid struck and I made like a shepherd and got the flock out of there.
+
+Now ny lease is up. It's time for change. I’ve got an itch. It’s time to
+scratch. So let's launch this site properly, with my seminal article on a topic
+of passion.  I’ve got 2 new little acronyms for you that will change your life:
+LPvg and ELTgd.
 
 That you’re reading this means that my success is assumed. For you see, I’m an
 SEO (search engine optimizer) and getting you here is what I do. Making
