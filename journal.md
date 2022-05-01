@@ -65,10 +65,11 @@ whatever link you followed, you wil again because you did ones. So stop reading
 if you will, but I’ll see you soon. 
 
 Every Little Thing Gets Done. Or, ELTgd. That’s my new mantra now, Instead of
-ELPGD which resonates ***Help God***, which I’ve been toying with lately. I’m
-improving it to ELTgd which resonates ***Felt Good***. Yup. When every little
-thing gets done, it feels good. Recently, I’ve started dispensing with a number
-of those little “makes all the difference” projects. 
+ELPGD for Every Little Thing Gets Done which resonates ***Help God***, which
+I’ve been toying with lately. I’m improving it to ELTgd which resonates ***Felt
+Good***. Yup. When every little thing gets done, it feels good. Recently, I’ve
+started dispensing with a number of those little “makes all the difference”
+projects. 
 
 LPvg stand for Linux, Python, vim & git as anyone who follows me even a little
 bit probably know by now. The v and the g are lowercase because vim and git are
