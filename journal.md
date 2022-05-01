@@ -7,7 +7,7 @@ description: Learn Linux, Python, vim & git To Obsolescence-Proof Your Future
 
 --------------------------------------------------------------------------------
 ## Sun May 01, 2022
-### Let Me Introduce You To LPvg & ELTgd
+### Let Me Introduce You To LPvg & ELTgd To Save The World
 
 Hello May! Come what may. This is month 1 of the 2 months I’ve got left at this
 comfortable little mountain cottage in the Poconos where I skied with my family
