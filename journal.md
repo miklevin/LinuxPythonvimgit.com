@@ -51,7 +51,9 @@ preponderance of evidence and compelling consistency makes us accept that we
 are interacting with others in some sort of common objective reality.  To not
 believe this is to die sooner. I'll take my turn to play, thank you very much.
 Accepting that there others much like us yet entirely different also in the
-game is a critical step. 
+game is a critical step. That leads to the "correct" golden rule of "Do not do
+unto others as you would not have them do unto you" among other game-theory
+equilibriums.
 
 Play? Game? But life is suffering and on the whole not worth it, right? Wrong!
 Many aspects of life are indeed that way but because so much of what's
