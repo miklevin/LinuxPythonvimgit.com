@@ -47,11 +47,11 @@ is called the problem of induction. Since everything you know comes to you
 through your senses, and senses can be tricked, there's no way to know that
 anything is 100% real. Certainly the fact that we dream alone tells us this.
 And we live on the same basis as the legal system in that only because of a
-preponderance of evidence and compelling consistency of the story and to accept
-that we are interacting with others in some sort of common objective reality.
-To not believe this is to die sooner. I'll take my turn to play, that l you
-very much. Accepting that there others much like us yet entirely different also
-in the game is a critical step. 
+preponderance of evidence and compelling consistency makes us accept that we
+are interacting with others in some sort of common objective reality.  To not
+believe this is to die sooner. I'll take my turn to play, that l you very much.
+Accepting that there others much like us yet entirely different also in the
+game is a critical step. 
 
 Play? Game? But life is suffering and on the whole not worth it, right? Wrong!
 Many aspects of life are indeed that way but because so much of what's
