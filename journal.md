@@ -7,6 +7,37 @@ description: Learn Linux, Python, vim & git To Obsolescence-Proof Your Future
 
 --------------------------------------------------------------------------------
 ## Mon May 02, 2022
+
+So I'm starting out this site with some very heady files on anxiety and
+obsolescence-proof tools. However it's time to actually include practical tips
+about Linux, Python, vim & git. I'll continue with my 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+## Mon May 02, 2022
 ### Cure Anxiety Through Telepathic Control Of Text
 
 Too many things in life lean towards aspirational in nature. That sucks. In one
