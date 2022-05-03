@@ -1,5 +1,8 @@
+plugins:
+  - jekyll-feed
 theme: jekyll-theme-hacker
 author: Mike Levin
 permalink: /:slug/
 gaid: G-ZNMVJFLRD2
 title: Linux, Python, vim & git | LinuxPythonvimgit.com
+description: Welcome to Linux, Python, vim & git | LinuxPythonvimgit.com
