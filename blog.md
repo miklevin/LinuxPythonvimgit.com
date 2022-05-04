@@ -6,9 +6,6 @@ slug: blog
 permalink: /blog/
 ---
 
-[LinuxPythonvimgit.com Blog as 1 page](/journal/)
-
-
 
 - [Post 4](/blog/post-4/)
 - [Cure Anxiety Through Telepathic Control Of Text](/blog/cure-anxiety-through-telepathic-control-of-text/)
