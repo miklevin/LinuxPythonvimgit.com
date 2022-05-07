@@ -5,6 +5,8 @@ title: "LinuxPythonvimgit.com Blog"
 slug: blog
 permalink: /blog/
 ---
+# { site.title } Blog
+
 
 
 - [Post 4](/blog/post-4/) 2022-05-02
