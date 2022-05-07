@@ -6,4 +6,4 @@ permalink: /about/
 
 - [{{ site.tagline }} Blog](/blog/)
 - [{{ site.tagline }} Blog RSS Feed](/feed.xml)
-- [1-Page Blog](/journal/)
+- [{{ site.tagline }} 1-Page Blog](/journal/)
