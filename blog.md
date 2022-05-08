@@ -6,7 +6,7 @@ slug: blog
 permalink: /blog/
 ---
 
-# {{ site.tagline }}
+# Welcome to The {{ site.tagline }} Blog
 
 - [Post 4](/blog/post-4/) 2022-05-02
 - [Cure Anxiety Through Telepathic Control Of Text](/blog/cure-anxiety-through-telepathic-control-of-text/) 2022-05-01
