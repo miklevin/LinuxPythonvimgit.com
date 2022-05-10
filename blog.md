@@ -8,6 +8,7 @@ permalink: /blog/
 
 # Welcome to The {{ site.tagline }} Blog
 
+- [Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass](/blog/anyone-who-tells-you-language-doesnt-matter-is-a-lying-dumbass/) 05/02/2022
 - [Post 4](/blog/post-4/) 05/02/2022
 - [Cure Anxiety Through Telepathic Control Of Text](/blog/cure-anxiety-through-telepathic-control-of-text/) 05/01/2022
 - [Let Me Introduce You To LPvg & ELTgd To Save The World](/blog/let-me-introduce-you-to-lpvg-eltgd-to-save-the-world/) 04/21/2022
