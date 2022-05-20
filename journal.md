@@ -518,32 +518,6 @@ details like title tags and URL it gets published on.
 
 
 --------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---------------------------------------------------------------------------------
 ## Mon May 02, 2022
 ### Cure Anxiety Through Telepathic Control Of Text
 
@@ -1245,6 +1219,7 @@ around the macro).
 
 --------------------------------------------------------------------------------
 ## Wed Apr 20, 2022
+### Become Obsolescence-proof & Disruption-resistant
 
 Learn Python, vim & git and become obsolescence-proof and disruption-resistant
 in tech and life. I'm not talking about Linux desktops. Desktops don't matter.
