@@ -12,6 +12,327 @@ permalink: /journal/
 ## Beginning of Journal
 
 --------------------------------------------------------------------------------
+## Fri May 20, 2022
+### I'm a git, you're a git, everyone's a git, git
+
+This is one for the history books. I have taught my wife enough Linux to load
+vim and enough vim to write Python. 
+
+But what about git? Hmmm. I used to think that one should take up Python first
+through Jupyter Notebooks, then put off Linux, vim & git for as long as
+necessary until the time is right. Then Microsoft fixed the WSL install on
+Windows 11 to merely just be:
+
+    wsl --install
+
+Then I realized the age of easy-install Linux was upon us. It can be done under
+a still-working version of Windows, so you have all your drivers, device
+support, game compatibility and whatnot. There's no searching around, making
+decisions, choosing Linux versions. About the only decision is whether you type
+that command from a DOS Command window (COM) or a Windows Powershell. Either
+will do the trick perfectly well. But after the command finishes, you'll have
+Ubuntu 20.04 (as of the time of this writing) installed and running right in
+the window you ran the command from.
+
+So, things are different. It is no longer necessary to defer the Linux and vim
+part of the experience. Quite the contrary, the vim part of the experience is
+so very challenging, central and pivotal to making the transition to... what?
+Another kind of human being in the same way engineers, musicians and athletes
+are other kinds of human beings, that the sooner you begin this transformation,
+the better. The only reason I deferred this transformation in the past is
+because of how hard it was to get an everyday Linux system. Before Windows 11,
+the wsl --install step still had a few show-stopping steps that followed,
+namely turning on the hypervisor and doing a few reboots. It was too difficult
+for the mainstream. It is not anymore.
+
+vim is too difficult for the mainstream, you say? Yeah, Microsoft'll have you
+believe that. They bought Github, built-in Linux and hired the creator of
+Python. But what are they going to do about vim? Crush it with VSCode, of
+course! You will use VSCode. You can depend on that. Microsoft needs you to
+depend on that, for if you learn vim, you will have a viable path to
+platform-independence, and that can not be allowed.
+
+So get your ass to vim! Do it now! Run, Forrest, run! Use vim and don't ever
+look back!
+
+Once you're on vim through WSL, you're already on Linux. Use vim to make a
+file:
+
+    vim hello.py
+
+From inside the file, learn enough vim to write and save:
+
+    print("Hello World!")
+
+The keystrokes by the way are:
+
+    i
+    print("Hello World!")
+    [Esc]
+    :wq
+    [Enter]
+
+Okay, now from the command-line that you've returned to, type:
+
+    python hello.py
+
+Hit Enter, of course. It shouldn't need to be said, but after venturing into
+vim for maybe the first time, I guess it does have to be said. A lot of assumed
+keystrokes in everyday instructions have to become considerably more precise
+when discussing vim.
+
+And you'll see the output of your Hello World program. Okay, so now you know
+Linux, Python and vim.
+
+But what about git?
+
+Honestly, git's the hardest of my recommended set of tools now. Sure, Linux,
+Python and vim have so very, very, very, very, very much more to explore and
+learn. But look, you can be functional with all three in just a single sitting.
+
+    wsl --install
+    echo "print('Hello World!') > hello.py
+    python hello.py
+    vimtutor
+
+Okay, so now you know Linux, Python and vim. The rest is details.
+
+But there's nothing like this for git. git eludes. git is still mysterious.
+
+git builds upon assumed Linux knowledge that one might not have.
+
+git requires initialization.
+
+git requires initiation.
+
+Put off git until the time is right.
+
+Nervousness, tap, tap, tap... all that code not backed up. No undo. No ability
+to flow it onto other computers. A laptop crash would be devastating... tap,
+tap, tap... still, no git?
+
+But when will the time be right?
+
+What's that Nat? You want to web-publish like I do? 
+
+Well, I guess the time has come the Walrus said to speak of that great and
+awesome git's other main contribution to the free and open source world. This
+massive git of git's first and largest contribution of course being Linux
+itself. Linus Torvalds wrote git. Linux named it after himself.
+
+This is appropriate given Linus' awesome creativity inventing the product from
+scratch, as Ken Thompson, the creator of Unix, will tell you about Linus and
+Linux and Bitkeeper's creator Larry McVoy will tell you about git. I am quite
+sure Larry called Linux a git before Linus named git git.
+
+At least Linus knows himself well. However, this wants me want to bang my:
+
+    git reset --hard HEAD^^^^^^^^
+
+But I get ahead of myself. Let's keep the geek jokes to a minimum. They only
+infuriate those sincerely trying to learn.
+
+Nat asks to web publish like me. Okay, so it's time to teach her...
+
+Github Pages!!!
+
+Okay, take a deep breath. You thought Linux, Python and vim were challenging.
+Okay, let's just start with Github Pages. Why? Because:
+
+- It lets you publish markdown as web pages (no HTML-knowledge necessary)
+- Creating a markdown is quick and easy in vim.
+- It forces us to learn enough git to make a local "repository"
+- It forces us to get that repository up on Github
+- Then your website is just a few Github / Settings away.
+
+Okay, assume being in a Linux terminal but with little Linux experience, either
+on operation or terminology. It can all be rather intimidating and
+overwhelming, so break it down Barney-style.
+
+- First is explaining what a git "repository: is.
+- Next is explaining what the git program itself is.
+- Then we have to explain what using a command-line program in a terminal is.
+
+Okay, here we go:
+
+- git is a command-line program (probably already on your machine)
+- We have to check if it actually is on your machine. 
+  - It usually is on recent versions of Linux (which you are on)
+- To check if we have git:
+  - Open a Terminal, which is also known as:
+    - A shell
+    - The command-line interface
+    - CLI
+  - As an aside, the Window versions which are similar but not Linux, are:
+    - COM (the command window)
+    - Powershell
+  - None of this will work from the Windows versions
+  - You can tell the difference between them based on their prompt
+    - Both COM and Powershell use the greater-than ">" as their prompt
+    - Linux uses the dollar-sign "$" as its prompt
+
+Aside from very few special cases, I am never talking about COM or Powershell.
+These have very little use except to install Windows software. We used COM to
+install Linux with the wsl --install command. That's the last we should ever
+have to use COM or Powershell as far as I'm concerned.
+
+But we now have the Linux command-line. The preferred way to get to the Linux
+command-line (a.k.a. Terminal, Shell or CLI) is through the new Windows
+Terminal program, available through the Microsoft Store.
+
+I am about to show you how to use the git program from the Linux command-line.
+
+So we have a Linux command-line open and ready to use. We have it by running
+Microsoft Terminal. Our default is set to Ubuntu 20.04. If it's not, change the
+default to Ubuntu 20.04. That way whenever we want a Linux terminal, we open
+Microsoft Terminal and it's instantly there.
+
+Go to your Linux command-line.
+
+The next step is to show you how to read the git --help without needing to
+scroll-up. We have turned off the ability to scroll-up in a Linux command-line
+so that vim doesn't get messed up with the scroll-wheel. This is a good thing
+and we should keep it that way.
+
+To show git help, we type:
+
+    git --help | less
+
+Now we are displaying the output of git --help, but we are "piping" it through
+the program called "less".
+
+The above command should be read as: show git's help, but pipe its output to
+the program called less.
+
+Piping is sending the output of one program into the input of another program.
+This allows us to read all the help easily, even if it's taller than the
+screen.
+
+What would normally "scroll past" us and be lost off the top of the screen is
+now all sent into a program that lets you navigate the text with the same keys
+vim uses, including the q key to get exit the "less" program.
+
+Okay, a word about how git "fits into" the overall picture.
+
+The tools I use are really just 4 (plus Jupyter), so 5, really. But Jupyter is
+for learning. The first 4 I expect I'll be using till the day I die.
+
+- Linux
+- Python
+- vim
+- git
+
+git is important because your files must be:
+
+- In more than one place
+- Optionally very, very secret. To your satisfaction... enough for a journal.
+  Why?
+  - Because Microsoft bought Github
+  - Github is the most popular place for git repos
+  - Microsoft has their reputation and stock value on the line
+  - A leak of private info that is their fault will be on the front page of the
+    newspapers the next day and make their stock value plummet, lose customers,
+    lose faith, and begin an inevitable downfall of the company.
+  - Microsoft will not intentionally let private repos leak.
+  - Much more than a person's private journal is at stake. Proprietary code
+    worth millions or billions is kept this way, too.
+  - It is easier these days for your local machine to be hacked than for
+    Microsoft to screw up with this.
+
+What is a git repo, or "repository"?
+
+It is a folder (a.k.a. directory). Those words are interchangeable.
+
+The Linux command to make a folder (a.k.a. directory) is mkdir
+
+When you run mkdir, it makes the directory in the location where you are in the
+command-line.
+
+So you want to look at where you are to make sure it's where you want the
+folder to be made, and you can do that with:
+
+    pwd
+
+pwd means path of working directory.
+
+The first step is to find out where the Operating System compels you to be.
+It's always easy to start there. 
+
+From that location, I create a github
+
+- After starting up your computer, it is a "blank slate". Nothing is running.
+- When you run a Terminal (a.k.a. command-line, shell or CLI), you are "home"
+- When you run pwd, you will see that home is /home/ubuntu/
+  - This is where the (Linux) OS "compels" you to be... home.
+  - It is from here, you mkdir... but with good nicknames.
+  - The most important nickname in my mind is github.
+
+So open a terminal and type:
+
+    mkdir github
+
+This is already done.
+
+Now we can:
+
+    cd github
+
+To make ourselves "inside" the github folder.
+
+- From inside the github folder, we can make new directories. 
+- The names are important because those are about to be "repos". 
+- Repos start out as ONLY git repos on your own (local) computer.
+- Even when it's on Github, it can STILL be kept private.
+  - Github lets you keep a few private repos
+  - But you cannot share other people into them
+  - This happens to be perfect for our purposes
+
+So we cd into github
+
+Then we mkdir on a name that will soon be a private repo. No one but you will
+see it.
+
+    mkdir publishme
+    cd publishme
+    git init
+    ls
+    ls -a
+
+You can see that there is a "hidden" .git folder made as a result of git init.
+
+    vim index.md
+
+This is the preferred file-name for a homepage under the Github Pages
+publishing system. Write some markdown.
+
+    git status
+    git add index.md
+ 
+ This is now a git repo on your local computer. In the next step, we:
+
+ - Go to github.com
+ - We select the + in the upper-right and select "New repository"
+ - We IMMEDIATELY switch it to private
+ - We put our cursor in the Repository name box and type the exact same name as
+   the folder we're working from on our local computer.
+ - We scroll down and we hit "Create repository"
+
+We go back to the command-line and type:
+
+    git commit -am "My first commit"
+    git config --global user.email "youremail@somewhere.com"
+    git config --global user.name "Your Name"
+    git branch -M main
+
+We're almost there.
+
+    git branch -M main
+    git remote add origin git@github.com:miklevin/publishme.git
+    git push -u origin main
+
+This last step is going to require the username and password.
+
+--------------------------------------------------------------------------------
 ## Mon May 02, 2022
 
 So I'm starting out this site with some very heady files on anxiety and
