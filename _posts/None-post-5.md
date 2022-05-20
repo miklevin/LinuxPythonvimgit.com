@@ -110,12 +110,12 @@ What's that Nat? You want to web-publish like I do?
 Well, I guess the time has come the Walrus said to speak of that great and
 awesome git's other main contribution to the free and open source world. This
 massive git of git's first and largest contribution of course being Linux
-itself. Linus Torvalds wrote git. Linux named it after himself.
+itself. Linus Torvalds wrote git. Linus named it after himself.
 
 This is appropriate given Linus' awesome creativity inventing the product from
 scratch, as Ken Thompson, the creator of Unix, will tell you about Linus and
 Linux and Bitkeeper's creator Larry McVoy will tell you about git. I am quite
-sure Larry called Linux a git before Linus named git git.
+sure Larry called Linus a git before Linus named git git.
 
 At least Linus knows himself well. However, this wants me want to bang my:
 
@@ -250,7 +250,7 @@ pwd means path of working directory.
 The first step is to find out where the Operating System compels you to be.
 It's always easy to start there.
 
-From that location, I create a github
+From that location, I create a github folder.
 
 - After starting up your computer, it is a "blank slate". Nothing is running.
 - When you run a Terminal (a.k.a. command-line, shell or CLI), you are "home"
@@ -274,15 +274,16 @@ To make ourselves "inside" the github folder.
 - From inside the github folder, we can make new directories.
 - The names are important because those are about to be "repos".
 - Repos start out as ONLY git repos on your own (local) computer.
-- Even when it's on Github, it can STILL be kept private.
+- Even when it's on Github, it can STILL be kept private (but not published as
+  a website if you're using free Github)
   - Github lets you keep a few private repos
   - But you cannot share other people into them
-  - This happens to be perfect for our purposes
+  - And you cannot turn them into Github Pages websites
+- For our purposes, we will need a public repo.
 
 So we cd into github
 
-Then we mkdir on a name that will soon be a private repo. No one but you will
-see it.
+Then we mkdir on a name that will soon be a public repo.
 
     mkdir publishme
     cd publishme
@@ -300,11 +301,10 @@ publishing system. Write some markdown.
     git status
     git add index.md
 
- This is now a git repo on your local computer. In the next step, we:
+There is now a .git folder in this location. In the next step, we:
 
  - Go to github.com
  - We select the + in the upper-right and select "New repository"
- - We IMMEDIATELY switch it to private
  - We put our cursor in the Repository name box and type the exact same name as
    the folder we're working from on our local computer.
  - We scroll down and we hit "Create repository"
@@ -314,13 +314,198 @@ We go back to the command-line and type:
     git commit -am "My first commit"
     git config --global user.email "youremail@somewhere.com"
     git config --global user.name "Your Name"
-    git branch -M main
+
+In the above instructions the git config commands only have to be done once per
+computer.
 
 We're almost there.
 
     git branch -M main
-    git remote add origin git@github.com:miklevin/publishme.git
+    git remote add origin git@github.com:gitusername/publishme.git
+
+This reaches a point where some special public/private key (file) generation
+must be done. Usernames and passwords don't work anymore on a git push.
+
+Of the work we've done so far, there's definitely 2 separate parts:
+
+- That which is 1-time startup stuff
+- That which is recurring every time stuff
+
+It is time to figure out how to get rid of passwords on git.
+
+    cd ~/.ssh
+
+If it doesn't exist, make it.
+
+    mkdir ~/.ssh
+    cd ~/.ssh
+
+From inside ~/.ssh:
+
+    ssh-keygen -t rsa -C "email@address.com"
+
+Hit Enter to keep the answers blank, which is fine.
+
+Check git origin with:
+
+    git remote -v
+
+Set the remote origin to have the username in it. All git repos on your
+computer (local) in preparation for going onto a website like Github (remote as
+in elsewhere) need to have that elsewhere-location set. The below example is an
+actual real-world example. It's nuts, but it really is
+git@github.com:[username]. The username being embedded tells it from which
+Github user it should look for a public key. Therefore we are going to have to
+generate a public key and put it on Github.
+
+    git remote set-url origin git@gihub.com:miklevin/pipulate.git
+
+Conceptually, we got to the end in our earlier session. This last step of
+pushing shows that "authentication" (like username/password) is so often the
+most difficult part of an entire process.
+
+Because Microsoft is fighting against hacking, they locked down the security on
+Github. Using a username and password is no longer possible on things like:
+
+    git push
+
+For the same reason sites are insisting on 2-factor authentication these days,
+Github is insisting on better security. Using a username and password is
+actually less secure than alternatives that involve public/private key files.
+These keys live in a very standard location on Linux. That location is:
+
+    ~/.ssh
+
+This is the same as:
+
+    /home/ubuntu/.ssh
+
+The dot before the folder-name makes the folder "invisible" just like a .vimrc
+file. It's not supposed to show up in a normal:
+
+    ls
+
+...listing of a folder's contents. But it will show if you use:
+
+    ls -a
+
+...because the "-a" forces Linux to show "all" files, including those starting
+with a period "."
+
+So, then we have to actually generate those keys. The get created with a
+command-line program called ssh-keygen. Like "git", ssh-keygen was already on
+your Linux. This is because these tasks are so so common these days that most
+modern Linux like Ubuntu 20.04 which you're using have it pre-installed. So you
+don't have get it.
+
+The command we used is:
+
+    ssh-keygen -t rsa -C "email@address.com"
+
+Of course replace the email with the one you use for Github.
+
+This command prompts you 3-times for things. None of them are important. You
+don't need that level of security. So by just hitting Enter to each of the
+questions, you will end up with 2 keys in that folder:
+
+- id_rsa
+- id_rsa.pub
+
+The first one is the secret part of the key. It does not get given out. It
+stays on your machine. It's no big loss if you really lose it one day, because
+you can regenerate a new public/private-key pair. That's what these are. And
+you would just put the new public key where it goes, Github, for example.
+
+So the CONTENTS of the public key named id_rsa.pub is going to go onto Github.
+
+Once it's there, this command will work, although you will have one more "yes"
+to answer if everything is done correctly. After that yes, you will be able to
+just "git push" whenever you like. The first git push has to be this (after
+you've added the public key to Github).
+
     git push -u origin main
 
-This last step is going to require the username and password.
+When a folder is turned into a git repo with the git init command, many things
+are not set yet.
+
+If it's the first time using git on that machine, some of these settings are
+"global", meaning not for the repo in particular, but for your whole Linux
+system.
+
+When first we tried anything that actually tried connecting to Github, we
+started getting challenged to meet its requirements, including setting our
+email and name. Those commands it made us do were:
+
+    git config --global user.email "email@gmail.com"
+    git config --global user.name "Your Name"
+
+Of course, replace with your own.
+
+Now the "global" in these commands meant (as I NOW know) a .gitconfig file was
+created in home, a.k.a. ~/.gitconfig a.k.a. /home/ubuntu/.gitconfig, and as
+such can be edited with:
+
+    vim ~/.gitconfig
+
+...which contains:
+
+    [user]
+        email = email@gmail.com
+        name = Your Name
+
+That is just an FYI, little bonus. It was the first challenge of connecting to
+Github. The 2nd challenge was much bigger because it first demanded a username
+and password, and then told us that was not good enough, starting August of
+2021.
+
+To get the public key onto Github:
+
+    cd ~/.ssh
+    less id_rsa.pub
+
+Use your mouse pointer to click-drag from the beginning to the end (including
+your email address). This requires Windows Terminal to be set up for
+click-dragging to copy into the Windows OS copy/paste buffer. This is a very
+good idea. Do it.
+
+Next, you go to Github / settings / SSH and GPG keys
+
+Click New SSH Key.
+
+Give it a title like "My Key"
+
+Paste the public key text into the Key field
+
+Click Save SSH Key
+
+Now the command:
+
+    git push -u origin main
+
+...will work. Almost there! Remember to answer "yes" to the question that pops
+up. It will add github to a "known_hosts" file in ~/.ssh. You can go look at it
+with vim because it's sometimes necessary to delete lines out of there.
+
+Last (after a successful push):
+
+- Go to Github / Repository you want to publish as a website
+- Go to Github / Settings (for the Repo) / Pages
+- Select Source Branch: main
+- Hit Save
+
+Your site is punished. It will give you the link.
+
+From here on out:
+
+- Edit index.md
+- git commit -am "Something"
+- git push
+
+Git pushing will go smooth from here on out.
+
+New files can be added, but you must also git add and commit them as well.
+
+Refer to Jekyll documentation, especially regarding "Front Matter" to control
+details like title tags and URL it gets published on.
+
 
