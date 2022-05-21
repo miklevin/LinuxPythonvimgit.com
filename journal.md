@@ -52,8 +52,10 @@ course! You will use VSCode. You can depend on that. Microsoft needs you to
 depend on that, for if you learn vim, you will have a viable path to
 platform-independence, and that can not be allowed.
 
-So get your ass to vim! Do it now! Run, Forrest, run! Use vim and don't ever
-look back!
+So get your ass to vim! Do it now! It's already installed on your machine. Run,
+Forrest, run! Use vim and don't ever look back!
+
+{% include youtubePlayer.html id="zKr3dhdZMFo" %}
 
 Once you're on vim through WSL, you're already on Linux. Use vim to make a
 file:
