@@ -1,6 +1,7 @@
 ---
 layout: default
 author: Mike Levin
+title: "LinuxPythonvimgit.com Blog"
 slug: blog
 permalink: /blog/
 ---
