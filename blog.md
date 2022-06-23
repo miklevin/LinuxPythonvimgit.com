@@ -6,7 +6,7 @@ slug: blog
 permalink: /blog/
 ---
 
-# Welcome to The {{ site.tagline }} Blog
+# Welcome to The {{ page.title }} Blog
 
 - [Github Pages, Day 2](/blog/github-pages-day-2/) 05/21/2022
 - [Escape The Little Mouse](/blog/escape-the-little-mouse/) 05/21/2022
